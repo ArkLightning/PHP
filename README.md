@@ -28,6 +28,7 @@ CREATE TABLE `Analized_Text`.`Uploaded_Text` ( `ID` INT NOT NULL AUTO_INCREMENT 
 CREATE TABLE `Analized_Text`.`Word` ( `ID` INT NOT NULL AUTO_INCREMENT , `Text_ID` INT NOT NULL , `Word` VARCHAR NOT NULL , `Count` INT NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
 
 Используемые модули
+
 footer.php 
 header.php - Заголовок страницы
 input_form.php - Форма для ввода текста
